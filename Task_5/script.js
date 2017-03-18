@@ -8,9 +8,10 @@ function forLancelot(arr) {
 			woman++;
 		}
 	}
-	if (man > woman) {
+	/*if (man > woman) {
 		return true;
 	}else {
 		return false;
-	}
+	}*/
+	return man > woman;
 }
