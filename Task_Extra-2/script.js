@@ -1,11 +1,8 @@
-function basicOp(operation,num1,num2) {
-	if (operation == "*") {
-		return num1 * num2;
-	}else if(operation == "/") {
-		return num1 / num2;
-	}else if(operation == "+") {
-		return num1 + num2;
-	}else if(operation == "-") {
-		return num1 - num2;
-	}
+function busOfHell(stp) {
+	var sum = 0;
+	for (var i = 0;i<stp.length;i++) {
+		sum = sum + stp[i][0];
+		sum = sum - stp[i][1];
+	}	
+	return sum;
 }
